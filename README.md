@@ -1,2 +1,3 @@
-# qdhf
-Quality Diversity through Human Feedback.
+# Quality Diversity through Human Feedback.
+
+The code will be released soon.
