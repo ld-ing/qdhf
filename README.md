@@ -1,14 +1,15 @@
 # Quality Diversity through Human Feedback
 
-### Official Python implementation of [Quality Diversity through Human Feedback](https://arxiv.org/abs/2310.12103) (Spotlight at NeurIPS 2023 [ALOE Workshop](https://sites.google.com/view/aloe2023)).
+### Official Python implementation of the paper [Quality Diversity through Human Feedback](https://arxiv.org/abs/2310.12103) (Spotlight at [NeurIPS 2023 ALOE Workshop](https://sites.google.com/view/aloe2023)).
 
 ### [Project Page](https://liding.info/qdhf/) | [Paper](https://arxiv.org/abs/2310.12103) | [Cite](#citation)
-Li Ding, Jenny Zhang, Jeff Clune, Lee Spector, Joel Lehman
+[Li Ding](https://liding.info/), [Jenny Zhang](https://www.jennyzhangzt.com/), [Jeff Clune](http://jeffclune.com/), [Lee Spector](https://lspector.github.io/), [Joel Lehman](http://joellehman.com/)
 
-![teaser](misc/teaser.jpg)
+**TL;DR:** QDHF derives diversity representations from human feedback and optimizes for diverse, high-quality solutions that are aligned with human intuitions. 
+
+![teaser](teaser.jpg)
 <p align="center">
-QDHF derives diversity representations from human feedback and optimizes for diverse, high-quality solutions. 
-In the latent space illumination task, QDHF (right) improves the text-to-image generation compared to Best-of-N (left) with Stable Diffusion. 
+QDHF (right) improves the diversity in text-to-image generation results compared to best-of-N (left) using Stable Diffusion. 
 </p>
 
 ## Updates
