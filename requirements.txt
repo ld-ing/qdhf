@@ -1,0 +1,10 @@
+git+https://github.com/openai/CLIP.git
+dreamsim
+torch
+torchvision
+matplotlib
+numpy
+alive_progress
+qdax
+jax
+diffusers
