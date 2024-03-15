@@ -2,7 +2,7 @@
 
 ### Official Python implementation of the paper [Quality Diversity through Human Feedback](https://arxiv.org/abs/2310.12103) (Spotlight at [NeurIPS 2023 ALOE Workshop](https://sites.google.com/view/aloe2023)).
 
-### [Project Page](https://liding.info/qdhf/) | [Paper](https://arxiv.org/abs/2310.12103) | [Cite](#citation)
+### [Project Page](https://liding.info/qdhf/) | [Paper](https://arxiv.org/abs/2310.12103) | [Tutorial](https://docs.pyribs.org/en/stable/tutorials/qdhf.html) (new) | [Cite](#citation)
 [Li Ding](https://liding.info/), [Jenny Zhang](https://www.jennyzhangzt.com/), [Jeff Clune](http://jeffclune.com/), [Lee Spector](https://lspector.github.io/), [Joel Lehman](http://joellehman.com/)
 
 **TL;DR:** QDHF derives diversity representations from human feedback and optimizes for diverse, high-quality solutions that are aligned with human intuitions. 
@@ -13,7 +13,12 @@ QDHF (right) improves the diversity in text-to-image generation results compared
 </p>
 
 ## Updates
-**2023-12-13**: Initial release of the codebase.
+- **2024-03-14**: Release of the [QDHF tutorial](https://docs.pyribs.org/en/stable/tutorials/qdhf.html) in [pyribs](https://pyribs.org/).
+- **2023-12-13**: Initial release of the codebase.
+
+## Tutorial
+
+We have provided a tutorial: [Incorporating Human Feedback into Quality Diversity for Diversified Text-to-Image Generation](https://docs.pyribs.org/en/stable/tutorials/qdhf.html), together with the [pyribs](https://pyribs.org/) team. This tutorial features a lightweight version of QDHF and runs on Google Colab in ~1 hour. Dive into the tutorial to explore how QDHF enhances GenAI models with diversified, high-quality responses and apply these insights to your projects!
 
 ## Requirements
 
@@ -30,9 +35,6 @@ cd arm
 python3 main.py
 ```
 Replace `arm` with the name of the experiment you want to run.
-
-We are working on adding more detailed documentation and a [pyribs](https://pyribs.org/) tutorial to show how to use QDHF to generate more diverse images with Stable Diffusion. Stay tuned!
-
 
 <a name="citation"></a>
 ## Citation
