@@ -1,11 +1,14 @@
 # Quality Diversity through Human Feedback
 
-### Official Python implementation of the paper [Quality Diversity through Human Feedback](https://arxiv.org/abs/2310.12103) (Spotlight at [NeurIPS 2023 ALOE Workshop](https://sites.google.com/view/aloe2023)).
+### [Project Page](https://liding.info/qdhf/) | [Paper](https://arxiv.org/abs/2310.12103) | [Talk](https://neurips.cc/virtual/2023/83789) | [Tutorial](https://docs.pyribs.org/en/stable/tutorials/qdhf.html) (new) | [Cite](#citation)
 
-### [Project Page](https://liding.info/qdhf/) | [Paper](https://arxiv.org/abs/2310.12103) | [Tutorial](https://docs.pyribs.org/en/stable/tutorials/qdhf.html) (new) | [Cite](#citation)
+#### Official Python implementation of the paper [Quality Diversity through Human Feedback: Towards Open-Ended Diversity-Driven Optimization](https://arxiv.org/abs/2310.12103) ([ICML 2024](https://icml.cc/virtual/2024/poster/34789) & Spotlight at [NeurIPS 2023 ALOE Workshop](https://sites.google.com/view/aloe2023))
+
 [Li Ding](https://liding.info/), [Jenny Zhang](https://www.jennyzhangzt.com/), [Jeff Clune](http://jeffclune.com/), [Lee Spector](https://lspector.github.io/), [Joel Lehman](http://joellehman.com/)
 
-**TL;DR:** QDHF derives diversity representations from human feedback and optimizes for diverse, high-quality solutions that are aligned with human intuitions. 
+
+
+**TL;DR:** QDHF enhances QD algorithms by inferring diversity metrics from human judgments of similarity, surpassing state-of-the-art methods in automatic diversity discovery in robotics & RL tasks and significantly improving performance in open-ended generative tasks.
 
 ![teaser](teaser.jpg)
 <p align="center">
@@ -18,7 +21,7 @@ QDHF (right) improves the diversity in text-to-image generation results compared
 
 ## Tutorial
 
-We have provided a tutorial: [Incorporating Human Feedback into Quality Diversity for Diversified Text-to-Image Generation](https://docs.pyribs.org/en/stable/tutorials/qdhf.html), together with the [pyribs](https://pyribs.org/) team. This tutorial features a lightweight version of QDHF and runs on Google Colab in ~1 hour. Dive into the tutorial to explore how QDHF enhances GenAI models with diversified, high-quality responses and apply these insights to your projects!
+We have released a tutorial: [Incorporating Human Feedback into Quality Diversity for Diversified Text-to-Image Generation](https://docs.pyribs.org/en/stable/tutorials/qdhf.html), together with the [pyribs](https://pyribs.org/) team. This tutorial features a lightweight version of QDHF and runs on Google Colab in ~1 hour. Dive into the tutorial to explore how QDHF enhances GenAI models with diversified, high-quality responses and apply these insights to your projects!
 
 ## Requirements
 
@@ -56,4 +59,4 @@ This project is under the [MIT License](LICENSE).
 
 
 ##  Acknowledgments
-The main structure of this code is modified from the [DQD](https://github.com/icaros-usc/dqd/tree/main). Each experiment contains its own modified version of [pyribs](https://pyribs.org/), a quality diversity optimization library. The maze navigation experiment uses a modified version of [Kheperax](https://github.com/adaptive-intelligent-robotics/Kheperax). The LSI experiment uses Stable Diffusion ([huggingface/diffusers](https://github.com/huggingface/diffusers)), [OpenAI CLIP](https://github.com/openai/CLIP), and [DreamSim](https://github.com/ssundaram21/dreamsim).
+The main structure of this code is modified from the [DQD](https://github.com/icaros-usc/dqd/tree/main). Each experiment contains its own modified version of [pyribs](https://pyribs.org/), a quality diversity optimization library. The maze navigation experiment uses a modified version of [Kheperax](https://github.com/adaptive-intelligent-robotics/Kheperax). The LSI experiment uses Stable Diffusion ([huggingface/diffusers](https://github.com/huggingface/diffusers)), [OpenAI CLIP](https://github.com/openai/CLIP), and [DreamSim](https://github.com/ssundaram21/dreamsim). The funding acknowledgments are disclosed in the paper.
