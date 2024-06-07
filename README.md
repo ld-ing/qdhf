@@ -2,7 +2,7 @@
 
 ### [Project Page](https://liding.info/qdhf/) | [Paper](https://arxiv.org/abs/2310.12103) | [Talk](https://neurips.cc/virtual/2023/83789) | [Tutorial](https://docs.pyribs.org/en/stable/tutorials/qdhf.html) (new) | [Cite](#citation)
 
-#### Official Python implementation of the paper [Quality Diversity through Human Feedback: Towards Open-Ended Diversity-Driven Optimization](https://arxiv.org/abs/2310.12103) ([ICML 2024](https://icml.cc/virtual/2024/poster/34789) & Spotlight at [NeurIPS 2023 ALOE Workshop](https://sites.google.com/view/aloe2023))
+#### Official Python implementation of the paper [Quality Diversity through Human Feedback: Towards Open-Ended Diversity-Driven Optimization](https://arxiv.org/abs/2310.12103) ([ICML 2024](https://icml.cc/virtual/2024/poster/34789) & Spotlight at [NeurIPS 2023 ALOE Workshop](https://sites.google.com/view/aloe2023/accepted-papers))
 
 [Li Ding](https://liding.info/), [Jenny Zhang](https://www.jennyzhangzt.com/), [Jeff Clune](http://jeffclune.com/), [Lee Spector](https://lspector.github.io/), [Joel Lehman](http://joellehman.com/)
 
