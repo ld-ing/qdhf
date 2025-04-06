@@ -19,7 +19,7 @@ from ribs.archives import GridArchive
 from ribs.emitters import GaussianEmitter, ImprovementEmitter, IsoLineEmitter
 from ribs.optimizers import Optimizer
 from ribs.visualize import grid_archive_heatmap
-from utils import calc_pairwise_dis, fit_ae, fit_dis_embed, fit_pca
+from lsi_utils import calc_pairwise_dis, fit_ae, fit_dis_embed, fit_pca
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt

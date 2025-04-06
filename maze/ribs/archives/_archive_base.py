@@ -165,7 +165,7 @@ class ArchiveBase(ABC):  # pylint: disable = too-many-instance-attributes
         self._rand_buf = None
         self._seed = seed
         self._initialized = False
-        self._bins = np.product(self._storage_dims)
+        self._bins = np.prod(self._storage_dims)
 
         # self._dtype = self._parse_dtype(dtype)
         self._dtype = dtype
